@@ -135,4 +135,4 @@ set_optional_property "postgresql-default-max-group-connections-per-user" "$POST
 ## Finish by starting Guacamole under Wildfly, replacing
 ## the current process with the Wildfly process.
 ##
-exec "/wildfly-servlet/bin/standalone.sh -b 0.0.0.0" run
+exec /wildfly-servlet/bin/standalone.sh -b 0.0.0.0
