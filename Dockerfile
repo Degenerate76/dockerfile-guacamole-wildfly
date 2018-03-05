@@ -1,4 +1,4 @@
-FROM Degenerate76/dockerfile-wildfly-servlet
+FROM degenerate76/dockerfile-wildfly-servlet
 MAINTAINER Degenerate76
 
 # To update, check http://guacamole.apache.org/releases and https://jdbc.postgresql.org/download.html
